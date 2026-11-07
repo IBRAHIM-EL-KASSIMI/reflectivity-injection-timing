@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+datatanalysisenv/
+
+# Build and packaging output
+build/
+dist/
+
+# Private experiment data and generated analysis
+raw_data/
+results/
+Cycles_csv/
+Cycles_txt/
+Sep_Cycles_csv/
+Sep_Cycles_txt/
+files_*/
+Results/
+test_results/
+KineticsData*.txt
+Kinetics_comments*.txt
+Spot*file*.txt
+Analysed_Data_*.xlsx
+*.xlsx
+
+# Local screenshots and editor settings
+figures/
+.vscode/
+
+# Former working folder may contain private local artifacts; source now lives in src/
+/code/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
